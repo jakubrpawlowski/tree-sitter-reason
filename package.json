@@ -1,0 +1,27 @@
+{
+  "name": "tree-sitter-reason",
+  "version": "1.0.0",
+  "description": "Tree Sitter for ReasonML",
+  "scripts": {
+    "generate-grammar": "tree-sitter generate",
+    "parse-example": "tree-sitter parse example-file",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubrpawlowski/tree-sitter-reason.git"
+  },
+  "author": "jakubrpawlowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakubrpawlowski/tree-sitter-reason/issues"
+  },
+  "homepage": "https://github.com/jakubrpawlowski/tree-sitter-reason",
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.8"
+  },
+  "dependencies": {
+    "nan": "^2.18.0"
+  },
+  "main": "bindings/node"
+}
